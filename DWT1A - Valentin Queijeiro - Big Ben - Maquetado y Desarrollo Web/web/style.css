@@ -1,0 +1,230 @@
+body{
+    font-family: 'Century Gothic';
+    background-image: url(.img/fondopatron.jpg);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#principal {
+/*    background: green;*/
+    width: 1200px;
+    margin: auto;
+/*    border: 1px solid green;*/
+
+    
+}
+
+.header {
+    background: red;
+    border: 1px solid rgb(48,132,24);
+    background-image: url(.img/header.jpg);
+    width: 1200px;
+    height: 400px;
+}
+
+.header h1 {
+    font-size: 140px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header h2 {
+    text-align: center;
+    margin: -50px;
+    color: #FFF;
+}
+
+#menu  {
+    background: red;
+    padding: 10px;
+}
+
+#menu ul {
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    background: #3d70bf;
+    border: 4px solid #FFF;
+    list-style: none;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 11px 10px 10px 10px;
+    text-transform: uppercase;
+}
+
+#menu ul li a:hover {
+    color: #3d70bf;
+    background: white;
+}
+
+.start {
+    background: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+.name {
+    padding: 10px;
+    text-align: center;
+    background: #3d70bf;
+    color: white;
+}
+.name-img {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.tower {
+    padding: 10px;
+    background: #ff0303;
+    color: white;
+}
+
+.torre-img img {
+    float: right;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.clock {
+    padding: 10px;
+    background: #3d70bf;
+    color: white;
+}
+
+.esferas-img {
+    float: right;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.inscripcion {
+    text-transform: uppercase;
+}
+
+.func-img {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.bells {
+    padding: 10px;
+    background: #ff0303;
+    color: white;
+}
+
+.bells-img {
+    float: right;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.ilustracion {
+    text-align:center;
+}
+
+.currently{
+    padding: 10px;
+    background: #3d70bf;
+    color: white;
+}
+
+.reparacion {
+    text-align: center;
+}
+
+.location {
+    padding: 10px;
+    background: #ff0303;
+    color: white;
+}
+
+.houses {
+    text-align: center;
+}
+
+.lugaresproximos {
+    text-align: center;
+}
+
+.lugares  {
+    width: 300px;
+    margin: auto; 
+}
+
+.lugares ul li {
+    list-style: none;
+    line-height: 30px;
+    
+}
+
+.lugares ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.lugares ul li a:hover{
+    color:blue;
+    
+}
+
+.mapa-img{
+    text-align: center;
+}
+
+.fuentes li{
+
+    list-style-type: none;
+}
+
+.fuentes li a {
+    text-decoration: none;
+    line-height: 30px;
+    color: #000;
+    font-weight: bold;
+}
+
+.fuentes li a:hover {
+    color: red;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+footer {
+    padding: 10px;
+    background: white;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+footer h3 {
+    margin-left: 15px;
+}
